@@ -1,0 +1,132 @@
+*{
+
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+
+body{
+	background: #f2f2f2;
+
+}
+
+.cabeceraPrincipal, .menuPrincipal, .sliderPrincipal, main, .piePagina{
+	background: #ccc;
+	color: #fff;
+	width: 90%;
+	margin: 0 auto;
+
+}
+.cabeceraPrincipal{
+	background-color: #ffffff;
+    box-shadow: #ccc 3px 2px 2px;
+
+}
+
+.cabeceraPrincipal h1{
+	color: #FF9A62;
+	padding: 10px 40px;
+	text-shadow: #000 3px 2px 2px;
+}
+
+.menuPrincipal {
+    background-color: #E5B91D;
+    text-align: center;
+    padding-top: 10px;
+    height: 30px;
+}
+
+.menuPrincipal a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #3a3a3a;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.menuPrincipal a:hover{
+    background-color: #edd502;
+    color: #141414;
+    transition: 1s;
+    
+}
+
+.sliderPrincipal img{
+    width: 100%;
+}
+.h2Home{
+    text-align: center;
+    padding: 2em ;
+    color: #FF9A62;
+
+}
+.menu{
+    text-align: center;
+
+}
+.menuPlato{
+    width: 30%;
+    background: #000;
+    border: 1px solid #FF9A62;
+    box-sizing: border-box;
+    height: 200px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+.menuPlato img{
+    width: 100%;
+
+}
+.menuPlato h3{
+    color: #000000;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.menuPlato p{
+    padding: 0.2em 1em;
+    font-size: 13px;
+    color: #000000;
+  
+}
+
+.menuPlato button{
+    background-color: #F3D8DD;
+    color: #000;
+    padding: 0.5em 1em;
+    margin-bottom: 5px;
+}
+.piePagina{
+    background-color: #1d1d1d;
+    color: #C1D0D4;
+}
+
+
+.piePagina h6{
+    text-align: center;
+    padding: 2em 0;
+}
+
+@media only screen and (max-width: 800px) {
+    body{
+        background-color: blue;
+    
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .menuPlato{
+        width: 90%;
+        display:block;
+        margin: 0;
+        margin-bottom: 10px;
+    
+    }
+    
+    }
+  
